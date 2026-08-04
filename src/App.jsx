@@ -2,17 +2,17 @@
 // importing React and useState modules. 
 import React, {useState} from 'react';
 // importing styling
-// import './App.css';
-import './index.css';
-import './styles/Header.css';
-import './styles/Sections.css';
-import './styles/Skills.css';
-import './styles/Education.css';
-import './styles/Projects.css';
-import './styles/Extra.css';
-import './styles/Panel.css';
-import './styles/Footer.css';
-import './styles/Responsive.css';
+import './App.css';
+// import './index.css';
+// import './styles/Header.css';
+// import './styles/Sections.css';
+// import './styles/Skills.css';
+// import './styles/Education.css';
+// import './styles/Projects.css';
+// import './styles/Extra.css';
+// import './styles/Panel.css';
+// import './styles/Footer.css';
+// import './styles/Responsive.css';
 
 
 // importing components
