@@ -1,5 +1,5 @@
 // importing React
-import React from 'React';
+import React from 'react';
 
 // importing Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
