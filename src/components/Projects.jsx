@@ -42,7 +42,7 @@ const Projects = ({onViewDetails}) => {
                     <p className='date'>{project.date}</p>
                     <p className='description'>{project.description}</p>
                     <div style={{display : 'flex', gap:'10px', flexWrap:'wrap'}}>
-                        <a href='project.github' className='btn' target="_blank" rel='noopener noreferrer'>
+                        <a href={project.github} className='btn' target="_blank" rel='noopener noreferrer'>
                             View Project → <i className='fab fa-github'></i>
                         </a>
                         {/* Uncomment if you want to use the details panel */}
