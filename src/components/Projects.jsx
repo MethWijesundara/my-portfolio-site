@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects = ({onViewDetails}) => {
+const Projects = () => {
     const projects = [
         {
             id: 'dayli',
@@ -45,10 +45,6 @@ const Projects = ({onViewDetails}) => {
                         <a href={project.github} className='btn' target="_blank" rel='noopener noreferrer'>
                             View Project → <i className='fab fa-github'></i>
                         </a>
-                        {/* Uncomment if you want to use the details panel */}
-                        <button className='btn view-details-btn' onClick={()=> onViewDetails(project.id)}>
-                         View details →
-                        </button>
                     </div>
                 </div>
             ))}
