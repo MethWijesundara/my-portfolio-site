@@ -25,6 +25,8 @@ import ProjectPanel from './components/ProjectPanel';
 import Extra from './components/Extra';
 import Footer from './components/Footer';
 
+// import Helmet
+import { Helmet } from 'react-helmet'
 
 // main function 
 function App(){
