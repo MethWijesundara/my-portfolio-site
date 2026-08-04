@@ -3,7 +3,7 @@
 import React, {useState} from 'react';
 // importing styling
 // import './App.css';
-import './styles/index.css';
+import './Index.css';
 import './styles/Header.css';
 import './styles/Sections.css';
 import './styles/Skills.css';
