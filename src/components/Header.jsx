@@ -34,7 +34,7 @@ const Header = () => {
                     <FontAwesomeIcon icon={faGithub} />GitHub
                 </a>
 
-                <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener norefferer'>
+                <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>
                     <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                 </a>
             
