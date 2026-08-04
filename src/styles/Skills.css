@@ -1,0 +1,25 @@
+/* SKILLS */
+.skills-grid{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-tag{
+  /* background: whitesmoke; */
+  background: white;
+  border: 2px dashed darkorange;
+  color:gray;
+  padding: 0.3rem 1rem;
+  border-radius: 12px;
+  font-size: 0.85rem; 
+  font-weight: 500;
+  margin: 4px;
+  cursor: default;
+  transition: all 0.2s ease-in-out;  
+}
+
+.skill-tag:hover{
+  background-color:whitesmoke;
+}
+

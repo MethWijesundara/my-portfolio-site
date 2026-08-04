@@ -1,0 +1,43 @@
+/* EDUCATION */
+.unordered-list{
+  list-style-type: none;
+  padding-left:0;
+}
+
+/* .unordered-list li::before{
+  content: "• "
+} */
+
+.edu-item ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+
+.edu-item ul li{
+  /* background: whitesmoke; */
+  background:white;
+  border: 2px dashed darkorange;
+  border-radius: 12px;
+  /* padding: 3px; */
+  padding: 0.2rem 0.8rem;
+  margin: 4px;
+  font-weight: 500;
+  color:#6c757d;
+  font-size: 0.85rem;
+  transition: all 0.2s ease-in-out;
+  
+}
+#education .date{
+  color:darkorange;
+}
+
+.edu-item ul li:hover{
+  /* color:darkorange; */
+  background:whitesmoke;
+  cursor:default;
+
+}

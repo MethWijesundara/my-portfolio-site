@@ -1,0 +1,53 @@
+/* PROJECTS */
+.straight-line{
+  font-weight: 400;
+}
+.btn{
+  display:inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 2px dashed gray;
+  margin: 8px 4px;
+  padding: 8px 6px;
+  color:gray;
+  background-color: white;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.view-details-btn{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:500;
+  font-size:medium;
+}
+
+.btn:hover{
+  color:darkorange;
+  background-color:whitesmoke;
+}
+
+.project-card{
+  margin: 10px auto;
+  background: whitesmoke;
+  border-radius: 12px;
+  margin: 1rem auto;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06)
+}
+
+.project-card .date{
+  color:darkorange;
+}
+
+.project-card h3{
+  font-size: 1.2rem;
+}
+
+.project-card .tech{
+  font-weight: 400;
+}
+
+.project-card description{
+  margin: 0.5rem 0;
+}

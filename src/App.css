@@ -1,0 +1,372 @@
+/* using vanilla CSS to style */
+
+/* trying to import fontawesome */
+/* import {@fortawesome/fontawesome-free/css/all.min.css}; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:white;
+  color:#1a1a2e;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  
+}
+
+/* HEADER */
+
+.header{
+  background: url('src/assets/stellar.png')  ;
+  background-size: cover;
+  background-repeat:no-repeat;
+  border-bottom: 2px solid #e9ecef;
+  border-top: 1px solid #e9ecef;
+  border-left: 1px solid white ;
+  border-right: 1px solid white;
+  border-width: 80%;
+
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  /* background: linear-gradient(rgba(255, 255, 255, 0,88), rgba(255,255,255,0.88)), url("src/assets/stellar.png"); */
+  
+}
+
+header h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: black;
+  text-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.headline {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+  text-shadow: 0 4px 6px rgb(255,253,253);
+  font-weight: 500;
+}
+
+/* .header-name{
+  font-weight:600;
+} */
+
+/* .header .headline{
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+/* LINKS */
+.contact-links{
+  display:flex;
+  flex:wrap;
+  /* align-items: center; */
+  justify-content: center;
+  gap:1.2rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  transition: font-weight 0.2 ease, color 0.2s ease;
+}
+
+.contact-links a{
+  text-decoration: none;
+  color: orange;
+  font-weight: 500;
+
+  transition: font-weight 0.2s ease, color 0.2s ease;
+  font-weight:600;
+}
+
+.contact-links a:hover{
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 2px dashed #e9ecef;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h3{
+  font-size:1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+/* SKILLS */
+.skills-grid{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-tag{
+  /* background: whitesmoke; */
+  background: white;
+  border: 2px dashed darkorange;
+  color:gray;
+  padding: 0.3rem 1rem;
+  border-radius: 12px;
+  font-size: 0.85rem; 
+  font-weight: 500;
+  margin: 4px;
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+
+  
+}
+
+/* .skill-tag::before{
+  content: "• ";
+} */
+
+.skill-tag:hover{
+  /* color:darkorange; */
+  background-color:whitesmoke;
+}
+
+/* .skills .skills-grid{
+  display:flex;
+  justify-content: space-between;
+  
+} */
+
+/* EDUCATION */
+.unordered-list{
+  list-style-type: none;
+  padding-left:0;
+}
+
+/* .unordered-list li::before{
+  content: "• "
+} */
+
+.edu-item ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+
+.edu-item ul li{
+  /* background: whitesmoke; */
+  background:white;
+  border: 2px dashed darkorange;
+  border-radius: 12px;
+  /* padding: 3px; */
+  padding: 0.2rem 0.8rem;
+  margin: 4px;
+  font-weight: 500;
+  color:#6c757d;
+  font-size: 0.85rem;
+  transition: all 0.2s ease-in-out;
+  
+}
+#education .date{
+  color:darkorange;
+}
+
+.edu-item ul li:hover{
+  /* color:darkorange; */
+  background:whitesmoke;
+  cursor:default;
+
+}
+
+/* PROJECTS */
+.straight-line{
+  font-weight: 400;
+}
+
+/* .date{
+  color:darkorange;
+} */
+
+.btn{
+  display:inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 2px dashed gray;
+  margin: 8px 4px;
+  padding: 8px 6px;
+  color:gray;
+  background-color: white;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.view-details-btn{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:500;
+  font-size:medium;
+}
+
+.btn:hover{
+  color:darkorange;
+  background-color:whitesmoke;
+}
+
+.project-card{
+  margin: 10px auto;
+  background: whitesmoke;
+  border-radius: 12px;
+  margin: 1rem auto;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06)
+}
+
+.project-card .date{
+  color:darkorange;
+}
+
+.project-card h3{
+  font-size: 1.2rem;
+}
+
+.project-card .tech{
+  font-weight: 400;
+}
+
+.project-card description{
+  margin: 0.5rem 0;
+}
+
+/* EXTRA */
+#extra{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1.2rem 1.5rem 1.5rem;
+  margin-top: 0.5rem;
+}
+
+#extra h2{
+  border-bottom:none;
+  padding-bottom:0;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+/* language(s) */
+.languages ul, .interests ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.7rem;
+}
+
+.languages ul li, .interests ul li{
+  background-color:white;
+  padding: 0.2rem 1.2rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color:gray;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease-in-out;
+
+  border: 2px dashed darkorange;
+} 
+
+.languages ul li:hover, .interests ul li:hover{
+  color:gray;
+  background:whitesmoke;
+  cursor: default;
+}
+
+/* Project Panel*/
+.panel-overlay {
+  display:none;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+}
+
+.panel-overlay.visible{
+  display:block;
+}
+
+.project-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background:white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  z-index:1000;
+  display: none;
+  max-height: 80vh;
+  overflow-y: auto
+}
+
+.project-panel.open{
+  display: block;
+}
+
+.close-panel-btn{
+  float: right;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-panel-btn:hover{
+  color:orange;
+}
+
+/* FOOTER */
+.footer .footer-content{
+  color:#adb3bd;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 1.5rem;
+  border-top: 2px solid #e9ecef;
+  padding-top: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 600px){
+  #extra {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  header h1{
+    font-size: 2rem
+  }
+
+  contact-links{
+    gap: 0.8rem;
+    font-size: 0.85rem;
+  }
+}
