@@ -17,7 +17,7 @@ body {
   Helvetica,
   Arial,
   sans-serif;
-  
+
   background:white;
   color:#1a1a2e;
   line-height: 1.6;
@@ -30,19 +30,21 @@ body {
 /* HEADER */
 
 .header{
-  background: url('src/assets/stellar.png')  ;
+  /* background-image: url('/stellar.png')  ; */
   background-size: cover;
   background-repeat:no-repeat;
   border-bottom: 2px solid #e9ecef;
   border-top: 1px solid #e9ecef;
   border-left: 1px solid white ;
   border-right: 1px solid white;
-  border-width: 80%;
+
+  /* this line does nothing */
+  /* border-width: 80%; */
 
   text-align: center;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  /* background: linear-gradient(rgba(255, 255, 255, 0,88), rgba(255,255,255,0.88)), url("src/assets/stellar.png"); */
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), url('/stellar.png');
   
 }
 
