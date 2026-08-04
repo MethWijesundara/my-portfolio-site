@@ -67,7 +67,7 @@ header h1{
 /* LINKS */
 .contact-links{
   display:flex;
-  flex:wrap;
+  flex-wrap:wrap;
   /* align-items: center; */
   justify-content: center;
   gap:1.2rem;
@@ -83,6 +83,10 @@ header h1{
 
   transition: font-weight 0.2s ease, color 0.2s ease;
   font-weight:600;
+
+  display:flex;
+  align-items:center;
+  gap:0.4rem;
 }
 
 .contact-links a:hover{
@@ -365,7 +369,7 @@ h3{
     font-size: 2rem
   }
 
-  contact-links{
+  .contact-links{
     gap: 0.8rem;
     font-size: 0.85rem;
   }
