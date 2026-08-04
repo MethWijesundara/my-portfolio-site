@@ -35,6 +35,9 @@ function App(){
   // const openPanel
   return(
     <div className='App'>
+      <Helmet>
+        <title>✨ Meth Wijesundara • Portfolio</title>
+      </Helmet>
       <Header />
       <Skills />
       <Education />
