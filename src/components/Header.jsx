@@ -28,10 +28,10 @@ const Header = () => {
                    <FontAwesomeIcon icon={faPhone} /> +94762663863
                 </a>
                 <a href='https://www.google.com/maps/place/Kadawatha/@7.0095444,79.8776332,12z/data=!3m1!4b1!4m6!3m5!1s0x3ae2f86bd75870f7:0xee362e29dbc079a6!8m2!3d7.0046324!4d79.954155!16s%2Fm%2F02rrpb2?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D' target="_blank" rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon={faMapMarkerAlt} />Kadawatha, Sri Lanka
+                    <FontAwesomeIcon icon={faMapMarkerAlt} /> Kadawatha, Sri Lanka
                 </a>
                 <a href='https://github.com/MethWijesundara' target="_blank" rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon={faGithub} />GitHub
+                    <FontAwesomeIcon icon={faGithub} /> GitHub
                 </a>
 
                 <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>

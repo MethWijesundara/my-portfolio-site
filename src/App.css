@@ -220,7 +220,8 @@ h3{
   margin: 8px 4px;
   padding: 8px 6px;
   color:gray;
-  background-color: white;
+  /* background-color: white; */
+  background-color:whitesmoke;
   font-weight: 500;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -234,7 +235,9 @@ h3{
 
 .btn:hover{
   color:darkorange;
-  background-color:whitesmoke;
+  /* background-color:whitesmoke; */
+  background: white;
+  transform: scale(1.02);
 }
 
 .project-card{

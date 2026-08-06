@@ -33,7 +33,7 @@ function App(){
   return(
     <div className='App'>
       <Helmet>
-        <title>✨ Meth Wijesundara • Portfolio</title>
+        <title>✨ Portfolio • Meth Wijesundara</title>
       </Helmet>
       <Header />
       <Skills />
