@@ -9,7 +9,7 @@ function MusicPlayer(){
     return(
 
         <section className="music-player">
-                <h3><FontAwesomeIcon icon={faMusic} ></FontAwesomeIcon> My favorite tune at the moment :</h3>
+                <h3><FontAwesomeIcon icon={faMusic} ></FontAwesomeIcon> My favorite tune at the moment:</h3>
         <div className="container">
             {/* <div className="left">
             </div> */}
