@@ -15,7 +15,7 @@ function MusicPlayer(){
             </div> */}
 
             <div className="middle">
-                <h3>Less Than a Lover • <span className="artist"><i>JM & JENNIE</i></span> </h3>
+                <h3 className="song">Less Than a Lover • <span className="artist"><i>JM & JENNIE</i></span></h3>
                 <audio controls>
                     <source src="/music/Less_than_a_lover.mp3" type="audio/mpeg" />
                 </audio>
