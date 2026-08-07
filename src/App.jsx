@@ -18,6 +18,7 @@ import './App.css';
 // importing components
 // keep this empty for now'
 import Header from './components/Header';
+import MusicPlayer from './components/MusicPlayer';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Projects from './components/Projects';
@@ -36,10 +37,13 @@ function App(){
         <title>✨ Portfolio • Meth Wijesundara</title>
       </Helmet>
       <Header />
+      {/* <Header>
+      </Header> */}
       <Skills />
       <Education />
       <Projects /> 
       <Extra />
+      <MusicPlayer />
       <Footer />
     </div>
   )

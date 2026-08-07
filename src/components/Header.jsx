@@ -7,6 +7,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpen, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faMusic } from '@fortawesome/free-solid-svg-icons/faMusic';
 
 // importing background
 // import stellar from "public/stellar.png";
@@ -37,6 +38,10 @@ const Header = () => {
                 <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>
                     <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                 </a>
+
+                {/* <a href='' target='' rel=''>
+                    <FontAwesomeIcon icon={faMusic} /> Music
+                </a> */}
             
 
             </div>
