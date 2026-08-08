@@ -1,5 +1,8 @@
 import React from 'react';
 
+// importing music player
+import MusicPlayer from './MusicPlayer';
+
 const Extra = () => {
     const languages =  ['🇬🇧 English', '🇱🇰 Sinhala'];
     const interests = ['🎵 K-Pop', '🚶‍♂️ Walks', '🐶 Spending time with pets','📽️ K-drama', '🚴 Cycling'];
@@ -22,6 +25,10 @@ const Extra = () => {
                         <li key={index}>{interest}</li>
                     ))}
                 </ul>
+            </div>
+
+            <div className='full-row'>
+                <MusicPlayer />
             </div>
         </section>
     );

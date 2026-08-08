@@ -43,7 +43,7 @@ function App(){
       <Education />
       <Projects /> 
       <Extra />
-      <MusicPlayer />
+      {/* <MusicPlayer /> */}
       <Footer />
     </div>
   )
