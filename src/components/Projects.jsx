@@ -32,7 +32,7 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            <h2><i className='fas fa-folder-open'></i>Projects</h2>
+            <h2><i className='fas fa-folder-open'></i> Projects</h2>
             {projects.map((project)=>(
                 <div key={project.id} className='project-card'>
                     <h3>

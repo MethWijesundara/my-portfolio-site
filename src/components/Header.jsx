@@ -15,9 +15,12 @@ import { faMusic } from '@fortawesome/free-solid-svg-icons/faMusic';
 // unnecessary import
 // import '@fortawesome/fontawesome-free/css/all.min.css'
 
+// importing navbar
+
 const Header = () => {
     return (
         <header className='header'>
+
             <h1 className='header-name'>METH WIJESUNDARA</h1>
             <p className='headline'>CS Foundation @ NSBM | Developing Python and Web apps.</p>
 

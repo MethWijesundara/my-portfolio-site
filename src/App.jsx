@@ -17,6 +17,7 @@ import './App.css';
 
 // importing components
 // keep this empty for now'
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import MusicPlayer from './components/MusicPlayer';
 import Skills from './components/Skills';
@@ -36,6 +37,7 @@ function App(){
       <Helmet>
         <title>✨ Portfolio • Meth Wijesundara</title>
       </Helmet>
+      {/* <Navbar /> */}
       <Header />
       {/* <Header>
       </Header> */}

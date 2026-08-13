@@ -4,15 +4,12 @@ import "/src/styles/MusicPlayer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
-// import audio player
-import AudioPlayer from "react-h5-audio-player";
-import "react-h5-audio-player/lib/styles.css";
+// import audio player (not needed)
+// import AudioPlayer from "react-h5-audio-player";
+// import "react-h5-audio-player/lib/styles.css";
 
 // adding state
 import React, { useState } from "react";
-
-
-
 
 function MusicPlayer(){
 
