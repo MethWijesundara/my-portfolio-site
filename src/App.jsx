@@ -37,7 +37,7 @@ function App(){
       <Helmet>
         <title>✨ Portfolio • Meth Wijesundara</title>
       </Helmet>
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
       {/* <Header>
       </Header> */}

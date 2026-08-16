@@ -41,8 +41,13 @@
     font-weight: 500;
     color:darkorange;
 }
+
+.platform{
+    color: green;
+    font-weight: 600;
+}
 .right{
-    border: 2px dashed gray;
+    /* border: 2px dashed gray; */
     /* margin: 8px 0px; */
     background: white;
     border-radius: 12px;
@@ -61,4 +66,11 @@
     height:125px;
     border-radius:8px;
     margin:10px;
+}
+
+.music-credit{
+    font-size: 0.75rem;
+    color: #adb3bd;
+    text-align:center;
+    margin-top: 0.5rem;
 }
