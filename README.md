@@ -6,10 +6,12 @@
 <img width="952" height="327" alt="image" src="https://github.com/user-attachments/assets/bfe23323-eaa9-416b-b870-5ab972c4aec0" />
 
 ## About project
-I made this portfolio to look like a resume. I know, I could've just designed a resume using a design software, but hey - I wanted to try something new, that also polished my web dev knowledge :). 
+I made this portfolio to look like a resume. I know, I could've just designed a it using a design software, but hey - I wanted to try something new, something that also polished my web dev skills :). 
 
 ## Built with
 - React.js + Vite
 - Vanilla CSS
 
+## Future Updates
+- I already made a portfolio V2!. Check it out: https://github.com/MethWijesundara/bento-grid-portfolio 
 
