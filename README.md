@@ -1,4 +1,4 @@
-## Resume-style Portfolio 
+# Resume-style Portfolio 
 
 ## Preview
 <img width="953" height="716" alt="image" src="https://github.com/user-attachments/assets/19dc3a92-f081-4808-9600-03c75c139f82" />
