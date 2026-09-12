@@ -113,6 +113,7 @@ body {
 /* SECTIONS */
 section {
   margin-bottom: 2.5rem;
+  /* scroll-margin-top: 6rem; */
 }
 
 h2{
@@ -377,4 +378,13 @@ h3{
     gap: 0.8rem;
     font-size: 0.85rem;
   }
+}
+
+
+#header,
+#skills,
+#education,
+#projects,
+#extra {
+    scroll-margin-top: 5rem;
 }

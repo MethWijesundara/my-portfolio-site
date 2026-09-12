@@ -15,7 +15,7 @@ const Skills = () =>{
     const ProductivitySoftware = ['Notion'];
 
     return (
-        <section className='skills'>
+        <section id='skills'>
             <h2 className='heading'><i className="fas fa-code"></i> Skills</h2>
 
             <div className='skill-main-container'>
