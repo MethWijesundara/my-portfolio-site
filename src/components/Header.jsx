@@ -22,7 +22,6 @@ const Header = () => {
     return (
         <div>
             <header id='header'>
-                {/* <Navbar /> */}
 
                 <h1 className='header-name'>METH WIJESUNDARA</h1>
                 <p className='headline'>CS Foundation @ NSBM | Developing Python and Web apps.</p>

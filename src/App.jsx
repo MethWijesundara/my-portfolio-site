@@ -8,7 +8,7 @@ import './App.css';
 // import './styles/Sections.css';
 import './styles/Skills.css';
 // import './styles/Education.css';
-// import './styles/Projects.css';
+import './styles/Projects.css';
 // import './styles/Extra.css';
 // import './styles/Panel.css';
 // import './styles/Footer.css';
