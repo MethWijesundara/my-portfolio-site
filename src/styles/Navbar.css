@@ -3,33 +3,33 @@ html{
 
 }
 .floating-navbar{
-    position:fixed;
-    right:30px;
-    /* right: 50%; */
-    top: 50%;
-    /* top: 50px; */
-    transform: translateY(-50%);
-
+    
+    /* flex-box*/
     display: flex;
-    flex-direction: column;
     gap: 0.5rem;
-
-    padding: 0.7rem;
+    justify-content: space-evenly;
+    
+    /* background & border */
     background: white;
     border: 1px solid #e9ecef;
     border-radius: 14px;
-
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-
+    
+    /* z-index */
     z-index: 1000;
-
+    
+    /* transition */
     transition: all 0.2s ease-in-out;
+    transform: translateY(-50%);
+    /* position: absolute;
+    right: 200px;
+    left:200px;
+    top: 50px */
 }
 
 .floating-navbar a{
     text-decoration: none;
-    color: #7d736c;
-    font-size: 0.85rem;
+    color: black;
+    font-size: 0.95rem;
     font-weight: 500;
 
     padding: 0.5rem 0.7rem;
@@ -41,9 +41,13 @@ html{
 
 .floating-navbar a:hover{
     /* font-weight: 600; */
-    color: darkorange;
-    background:whitesmoke;
-    transform: translateX(-3px);
+    color: gray;
+    /* background:whitesmoke; */
+    transform: translateY(-1px);
+}
+
+.floating-navbar a:active{
+    color:orange;
 }
 
 @media (max-width: 900px){

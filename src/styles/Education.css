@@ -18,9 +18,9 @@
 }
 
 .edu-item ul li{
-  /* background: whitesmoke; */
+  background: whitesmoke;
   background:white;
-  border: 2px dashed darkorange;
+  border: 1px solid gray;
   border-radius: 12px;
   /* padding: 3px; */
   padding: 0.2rem 0.8rem;

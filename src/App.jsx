@@ -6,7 +6,7 @@ import './App.css';
 // import './index.css';
 // import './styles/Header.css';
 // import './styles/Sections.css';
-// import './styles/Skills.css';
+import './styles/Skills.css';
 // import './styles/Education.css';
 // import './styles/Projects.css';
 // import './styles/Extra.css';

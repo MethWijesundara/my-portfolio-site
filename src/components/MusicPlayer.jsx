@@ -23,12 +23,12 @@ function MusicPlayer(){
             <div className="container">
 
                 <div className={`right ${isPlaying ? "playing" : ""}`}>
-                    {/* <img
+                    <img
                         className="album-art"
                         src="/images/mona_lisa.jpg"
                         alt="Album Art">
-                    </img> */}
-                    <iframe
+                    </img>
+                    {/* <iframe
                         src="https://open.spotify.com/embed/track/5Fhr3wqeieN5WDkAsqL1JJ?" 
                         // src="https://www.youtube.com/embed/ECqGCH1TfLY"
                         width="100%" 
@@ -36,22 +36,22 @@ function MusicPlayer(){
                         frameBorder='0' 
                         allow="autoplay; clipboard-write; encrypted media; fullscreen; picture-in-picture"
                         loading="lazy">
-                    </iframe> 
+                    </iframe>  */}
                 </div>
 
-                {/* <div className="middle"> */}
-                    {/* <h3 className="song">MONA LISA • <span className="artist"><i>j-hope</i></span></h3> */}
-                    {/* <audio controls
+                <div className="middle">
+                    <h3 className="song">MONA LISA • <span className="artist"><i>j-hope</i></span></h3>
+                    <audio controls
                         onPlay={()=>setIsPlaying(true)}
                         onPause={()=>setIsPlaying(false)}
                     >
                         <source src="/music/mona_lisa.mp3" type="audio/mpeg" />
-                    </audio> */}
-                    {/* <p className="">Listen to the Preview on <span className="platform">Spotify ᯤ</span> </p> */}
+                    </audio>
+                    <p className="">Listen to the Preview on <span className="platform">Spotify ᯤ</span> </p>
                     {/* <Spotify link="https://open.spotify.com/track/5Fhr3wqeieN5WDkAsqL1JJ?autoplay_ok=1" /> */}
                     {/* using an <iframe> */}
-                {/* <p className="music-credit">Music by j-hope | BIGHIT MUSIC</p> */}
-                {/* </div> */}
+                <p className="music-credit">Music by j-hope | BIGHIT MUSIC</p>
+                </div>
             
             </div>
         </section>

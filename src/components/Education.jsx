@@ -16,7 +16,7 @@ const Education = () => {
             <h2 className='education-heading'><i className='fas fa-graduation-cap'></i> Education</h2>
             <div className='edu-item'>
                 <h3 className='uni-name'>BSc (Hons) Computer Science</h3>
-                <p>NSBM Green University</p>
+                <p>National School of Business Management (NSBM)</p>
                 <p className='date'>March 2023 - May 2025</p>
                 <br />
                 <p>Relevant Coursework :</p>
