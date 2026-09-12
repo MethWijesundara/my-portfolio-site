@@ -21,7 +21,7 @@ import Navbar from './Navbar';
 const Header = () => {
     return (
         <div>
-            <header className='header'>
+            <header id='header'>
                 {/* <Navbar /> */}
 
                 <h1 className='header-name'>METH WIJESUNDARA</h1>
