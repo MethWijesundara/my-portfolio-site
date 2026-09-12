@@ -11,7 +11,7 @@
 
 
 ## About project
-I made this portfolio to look like a resume. I know, I could've just designed it using design software, but hey - I wanted to try something new, something that also polished my web development skills. 
+I made this portfolio to look like a resume. I know, I could've just designed it using design software, but hey - I wanted to try something new, something that would also polished my web development skills. 
 
 I'm still a beginner in web development and web design - so I think there are probably a few - if not many - design and development flaws in this project. I hope to improve the project as I gain more and more skills :). 
 
