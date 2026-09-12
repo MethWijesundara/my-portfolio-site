@@ -1,12 +1,17 @@
-# Resume-style Portfolio 
+# 📃 my porfolio - v1  (resume-style) 
 
 ## Preview
-<img width="953" height="716" alt="image" src="https://github.com/user-attachments/assets/19dc3a92-f081-4808-9600-03c75c139f82" />
-<img width="946" height="722" alt="image" src="https://github.com/user-attachments/assets/bdaa9105-0c0c-4be4-9d69-3a47756e1757" />
-<img width="952" height="327" alt="image" src="https://github.com/user-attachments/assets/bfe23323-eaa9-416b-b870-5ab972c4aec0" />
+<img width="1771" height="967" alt="image" src="https://github.com/user-attachments/assets/7ae4d528-8e37-49f4-ac26-34b03cd73084" />
+
+<img width="1613" height="956" alt="image" src="https://github.com/user-attachments/assets/b71c5ada-e9f7-4a5a-9328-79473835a627" />
+
+<img width="1631" height="955" alt="image" src="https://github.com/user-attachments/assets/277f28ee-c709-423d-ade0-0adcc6dd5f3d" />
+
+
+
 
 ## About project
-I made this portfolio to look like a resume. I know, I could've just designed it using design software, but hey - I wanted to try something new, something that also polished my web development skills. 
+I made this portfolio to look like a resume. I know, I could've just designed it using design software, but hey - I wanted to try something new, something that would also polished my web development skills. 
 
 I'm still a beginner in web development and web design - so I think there are probably a few - if not many - design and development flaws in this project. I hope to improve the project as I gain more and more skills :). 
 
