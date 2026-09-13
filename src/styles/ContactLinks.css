@@ -1,0 +1,28 @@
+/* LINKS */
+#contact-links{
+  display:flex;
+  flex-wrap:wrap;
+  /* align-items: center; */
+  justify-content: center;
+  gap:1.2rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  transition: font-weight 0.2 ease, color 0.2s ease;
+}
+
+#contact-links a{
+  text-decoration: none;
+  color: darkorange;
+  font-weight: 500;
+
+  transition: font-weight 0.2s ease, color 0.2s ease;
+  font-weight:600;
+
+  display:flex;
+  align-items:center;
+  gap:0.4rem;
+}
+
+#contact-links a:hover{
+  text-decoration: underline;
+}

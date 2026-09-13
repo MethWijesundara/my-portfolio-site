@@ -1,5 +1,3 @@
-import React from 'react';
-
 // importing music player
 import MusicPlayer from './MusicPlayer';
 

@@ -11,7 +11,7 @@ html{
     
     /* background & border */
     background: white;
-    border: 1px solid #e9ecef;
+    border: 2px solid #e9ecef;
     border-radius: 14px;
     
     /* z-index */
@@ -41,18 +41,11 @@ html{
 }
 
 .floating-navbar a:hover{
-    /* font-weight: 600; */
-    color: gray;
-    /* background:whitesmoke; */
+    color: darkorange;
     transform: translateY(-1px);
 }
 
-.floating-navbar a:active{
-    color:orange;
-}
-
-@media (max-width: 900px){
-    .floating-navbar{
-        display: none;
-    }
+.floating-navbar a.active{
+    color:darkorange;
+    font-weight: 600;
 }

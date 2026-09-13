@@ -9,9 +9,9 @@ function Navbar(){
         
         <nav className="floating-navbar">
 
-            <a href="#header" aria-label="Home">Home  <i className="fas fa-house"></i></a>
+            <a href="#header" aria-label="Home" data-section="header">Home  <i className="fas fa-house"></i></a>
 
-            <a href="#skills" aria-label="Skills">Skills  <i className="fas fa-code"></i></a>
+            <a href="#skills" aria-label="Skills" data-section="skills">Skills  <i className="fas fa-code"></i></a>
 
             <a href="#education" aria-label="Education">Education  <i className="fas fa-graduation-cap"></i></a>
 

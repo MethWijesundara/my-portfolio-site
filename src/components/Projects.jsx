@@ -51,7 +51,7 @@ const Projects = () => {
                     <p className='description'>{project.description}</p>
 
                     <a href={project.github} className='btn' target="_blank" rel='noopener noreferrer'>
-                        View Project → <i className='fab fa-github'></i>
+                        View Project » <i className='fab fa-github'></i>
                     </a>
                     
                 </div>
