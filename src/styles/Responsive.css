@@ -13,4 +13,8 @@
     gap: 0.8rem;
     font-size: 0.85rem;
   }
+
+  .floating-navbar a{
+    font-size: 0.85rem;
+  }
 }

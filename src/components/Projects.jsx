@@ -35,11 +35,11 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            <h2><i className='fas fa-folder-open'></i> Projects</h2>
+            <h2><i className='fas fa-folder-open'></i> PROJECTS</h2>
             {projects.map((project)=>(
                 <div key={project.id} className='project-card'>
 
-                    <h3>{project.title}</h3>
+                    <h3 className="project-title">{project.title}</h3>
 
                     <div className='project-meta'>
                         <span className="tech">{project.tech}</span>
@@ -50,7 +50,7 @@ const Projects = () => {
 
                     <p className='description'>{project.description}</p>
 
-                    <a href={project.github} className='btn' target="_blank" rel='noopener noreferrer'>
+                    <a href={project.github} className='project-btn' target="_blank" rel='noopener noreferrer'>
                         View Project » <i className='fab fa-github'></i>
                     </a>
                     

@@ -1,23 +1,23 @@
-// importing CSS
-import "/src/styles/Navbar.css"
-
 // importing fontawesome
 import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// importing NavMenu
+import NavMenu from "./NavMenu";
 
 function Navbar(){
     return(
         
         <nav className="floating-navbar">
 
-            <a href="#header" aria-label="Home" data-section="header">Home  <i className="fas fa-house"></i></a>
+            <a href="#header" aria-label="Home" data-section="header">Home 🏠  </a>
 
-            <a href="#skills" aria-label="Skills" data-section="skills">Skills  <i className="fas fa-code"></i></a>
+            <a href="#skills" aria-label="Skills" data-section="skills">Skills 🖥️</a>
 
-            <a href="#education" aria-label="Education">Education  <i className="fas fa-graduation-cap"></i></a>
+            <a href="#education" aria-label="Education">Education 🎓</a>
 
-            <a href="#projects" aria-label="Projects">Projects  <i className="fas fa-folder-open"></i></a>
+            <a href="#projects" aria-label="Projects">Projects 📂</a>
 
-            <a href="#extra">Extras  <i className="fas fa-star"></i></a>
+            <a href="#extra">Extras 🌟</a>
 
         </nav>
     )

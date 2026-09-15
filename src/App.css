@@ -1,19 +1,9 @@
 /* using vanilla CSS to style */
 
-/* trying to import fontawesome */
-/* import {@fortawesome/fontawesome-free/css/all.min.css}; */
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-
-.App{
-  /* border: 2px dashed black; */
-  /* height: 100vh; */
-  /* width: auto; */
 }
 
 body {
@@ -30,28 +20,27 @@ body {
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  /* padding: 2rem 1.5rem; */
   
 }
 
-/* HEADER */
-
-
-
-
-
-/* SECTIONS */
 section {
   margin-bottom: 2.5rem;
-  /* scroll-margin-top: 6rem; */
+  border: 2px solid rgba(128, 128, 128, 0.299);
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
 }
 
+
 h2{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
   border-bottom: 2px solid #e9ecef;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+  
+  transition: all 0.3s ease;
 }
 
 h3{
@@ -59,200 +48,6 @@ h3{
   font-weight: 500;
   margin-bottom: 0.25rem;
 }
-
-
-/* EDUCATION */
-.unordered-list{
-  list-style-type: none;
-  padding-left:0;
-}
-
-/* .unordered-list li::before{
-  content: "• "
-} */
-
-.edu-item ul{
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  margin-top: 0.5rem;
-  padding-left: 0;
-}
-
-.edu-item ul li{
-  /* background: whitesmoke; */
-  background:white;
-  border: 1px solid gray;
-  border-radius: 12px;
-  /* padding: 0.5rem; */
-  padding: 0.4rem 0.8rem;
-  margin: 4px;
-  font-weight: 500;
-  /* color:#6c757d; */
-  color: gray;
-  font-size: 0.85rem;
-  transition: all 0.2s ease-in-out;
-  box-shadow: 2px 2px 0px rgb(212, 212, 212);
-  
-}
-#education .date{
-  color:darkorange;
-}
-
-.edu-item ul li:hover{
-  /* border */
-  border: 1px dashed darkorange;
-
-  /* box shadow */
-  box-shadow: 2px 2px 0px darkorange;
-
-  /* transform */
-  /* transform: translateY(2px); */
-
-  /* cursor */
-  cursor:default;
-
-  color:black;
-
-}
-
-
-
-/* EXTRA */
-#extra{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 1.2rem 1.5rem 1.5rem;
-  margin-top: 0.5rem;
-}
-
-/* #extra > :nth-child(3){
-  grid-column: 1/-1;
-} */
-
-.full-row{
-  /* grid-column: 1/-1; */
-  grid-column: span 2;
-}
-
-#extra h2{
-  border-bottom:none;
-  padding-bottom:0;
-  margin-bottom: 0.4rem;
-  font-size: 1.1rem;
-}
-
-/* language(s) */
-.languages ul, .interests ul{
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 0.7rem;
-}
-
-.languages ul li, .interests ul li{
-  background-color:white;
-  padding: 0.2rem 1.2rem;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color:gray;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  transition: all 0.2s ease-in-out;
-
-  border: 1px solid gray;
-  box-shadow: 2px 2px 0px gray;
-} 
-
-.languages ul li:hover, .interests ul li:hover{
-  color:black;
-  border: 1px dashed darkorange;
-  box-shadow: 2px 2px 0px darkorange;
-  /* background:whitesmoke; */
-  cursor: default;
-}
-
-/* Project Panel*/
-.panel-overlay {
-  display:none;
-  position: fixed;
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0,0,0,0.5);
-  z-index: 999;
-}
-
-.panel-overlay.visible{
-  display:block;
-}
-
-.project-panel {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  background:white;
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 500px;
-  width: 90%;
-  z-index:1000;
-  display: none;
-  max-height: 80vh;
-  overflow-y: auto
-}
-
-.project-panel.open{
-  display: block;
-}
-
-.close-panel-btn{
-  float: right;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #333;
-}
-
-.close-panel-btn:hover{
-  color:darkorange;
-}
-
-/* FOOTER */
-.footer .footer-content{
-  color:#adb3bd;
-  text-align: center;
-  font-size: 0.85rem;
-  margin-top: 1.5rem;
-  border-top: 2px solid #e9ecef;
-  padding-top: 1.5rem;
-}
-
-/* Responsive */
-@media (max-width: 600px){
-  #extra {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  header h1{
-    font-size: 2rem
-  }
-
-  .contact-links{
-    gap: 0.8rem;
-    font-size: 0.85rem;
-  }
-}
-
 
 #header,
 #skills,

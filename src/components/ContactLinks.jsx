@@ -4,24 +4,28 @@ import { faEnvelopeOpen, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function ContactLinks() {
+
+    // ENTER YOUR EMAIL HERE
+    const Email = 'methw.dev@gmail.com'
+
     return(
         <section id='contact-links'>
-            <a href='mailto:methw.dev@gmail.com' target="_blank" rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faEnvelopeOpen} /> methw.dev@gmail.com
-                    </a>
-                    <a href='tel:+94762663863' target='_blank' rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon={faPhone} /> +94762663863
-                    </a>
-                    <a href='https://www.google.com/maps/place/Kadawatha/@7.0095444,79.8776332,12z/data=!3m1!4b1!4m6!3m5!1s0x3ae2f86bd75870f7:0xee362e29dbc079a6!8m2!3d7.0046324!4d79.954155!16s%2Fm%2F02rrpb2?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D' target="_blank" rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faMapMarkerAlt} /> Kadawatha, Sri Lanka
-                    </a>
-                    <a href='https://github.com/MethWijesundara' target="_blank" rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faGithub} /> GitHub
-                    </a>
+            <h2><i class="fa-solid fa-link"></i> contact me</h2>
+            <p>Get in touch with me through Email, view my projects on GitHub, or connect with me on LinkedIn :).</p>
+        <div className='contact-links-container'>
+            <a href={`mailto:${Email}`} target="_blank" rel='noopener noreferrer'>
+                <FontAwesomeIcon icon={faEnvelopeOpen} /> Email 
+            </a>
 
-                    <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>
-                        <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-                    </a>
+
+            <a href='https://github.com/MethWijesundara' target="_blank" rel='noopener noreferrer'>
+                <FontAwesomeIcon icon={faGithub} /> GitHub
+            </a>
+
+            <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>
+                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+            </a>
+        </div>
         </section>
     );
 }

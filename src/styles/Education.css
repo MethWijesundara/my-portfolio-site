@@ -4,31 +4,26 @@
   padding-left:0;
 }
 
-/* .unordered-list li::before{
-  content: "• "
-} */
-
 .edu-item ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1rem;
+  gap: 0.5rem 0.4rem;
   margin-top: 0.5rem;
   padding-left: 0;
 }
 
 .edu-item ul li{
-  background: whitesmoke;
   background:white;
   border: 1px solid gray;
   border-radius: 12px;
-  /* padding: 3px; */
-  padding: 0.2rem 0.8rem;
-  margin: 4px;
+  /* padding: 0.5rem; */
+  padding: 0.3rem 0.6rem;
   font-weight: 500;
-  color:#6c757d;
-  font-size: 0.85rem;
+  color: gray;
+  font-size: 0.9rem;
   transition: all 0.2s ease-in-out;
+  box-shadow: 2px 2px 0px gray;
   
 }
 #education .date{
@@ -36,8 +31,15 @@
 }
 
 .edu-item ul li:hover{
-  /* color:darkorange; */
-  background:whitesmoke;
+  /* border */
+  border: 1px dashed darkorange;
+
+  /* box shadow */
+  box-shadow: 2px 2px 0px darkorange;
+
+  /* cursor */
   cursor:default;
+
+  color:black;
 
 }

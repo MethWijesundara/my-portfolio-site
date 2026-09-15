@@ -1,13 +1,14 @@
-// importing React
-import React from 'react';
-
 // importing Font Awesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelopeOpen, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const Skills = () =>{
+    const skillsDictionary = {
+        'Programming Languages' : ['Python', 'C'],
+        'Frontend Web Development' : ['HTML', 'CSS', 'JavaScript', 'React.js'],
+        'Backend Web Development' : ['Express.js', 'Node.js'],
+        'Databases' : ['MySQL', 'MongoDB'],
+        'Productivity' : ['Notion']
+    }
     const ProgrammingLangs = ['Python', 'C', 'C#'];
     const FrontEndDev = ['HTML', 'CSS', 'JavaScript', 'React.js'];
     const BackEndDev = ['Express.js', 'Node.js'];
@@ -16,11 +17,11 @@ const Skills = () =>{
 
     return (
         <section id='skills'>
-            <h2 className='heading'><i className="fas fa-code"></i> Skills</h2>
+            <h2 className='heading'><i className="fas fa-code"></i> skills</h2>
 
             <div className='skill-main-container'>
                 <div className='skills-container'>
-                    <h3>Programming Languages</h3>
+                    <h3>Programming Languages :</h3>
                     <div className='skills-grid'>
                         {ProgrammingLangs.map((skill,index)=>(
                             <span key={index} className='skill-tag'>{skill}</span>
@@ -29,7 +30,7 @@ const Skills = () =>{
                 </div>
 
                 <div className='skills-container'>
-                    <h3>Frontend Web Development</h3>
+                    <h3>Frontend Web Development :</h3>
                     <div className='skills-grid'>
                         {FrontEndDev.map((skill,index)=>(
                             <span key={index} className='skill-tag'>{skill}</span>
