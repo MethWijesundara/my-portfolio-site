@@ -10,7 +10,7 @@ function ContactLinks() {
 
     return(
         <section id='contact-links'>
-            <h2><i class="fa-solid fa-link"></i> contact me</h2>
+            <h2><i class="fa-solid fa-link"></i> CONTACT ME</h2>
             <p>Get in touch with me through Email, view my projects on GitHub, or connect with me on LinkedIn :).</p>
         <div className='contact-links-container'>
             <a href={`mailto:${Email}`} target="_blank" rel='noopener noreferrer'>

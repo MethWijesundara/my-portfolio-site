@@ -35,8 +35,11 @@ const Projects = () => {
 
     return (
         <section id="projects">
+
             <h2><i className='fas fa-folder-open'></i> PROJECTS</h2>
+
             {projects.map((project)=>(
+                
                 <div key={project.id} className='project-card'>
 
                     <h3 className="project-title">{project.title}</h3>
@@ -56,6 +59,7 @@ const Projects = () => {
                     
                 </div>
             ))}
+
         </section>
     );
 };

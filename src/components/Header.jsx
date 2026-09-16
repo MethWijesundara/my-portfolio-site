@@ -1,14 +1,14 @@
 const Header = () => {
     // ENTER YOUR NAME HERE
-    const name = "Meth Wijesundara"
+    const name = "Meth"
 
     // ENTER YOUR HEADLINE HERE
     const headline = "Software Developer ✨"
     return (
         <div>
             <header id='header'>
-                <h1 className='header-name'>{name}</h1>
-                <p className='headline'>{headline}</p>
+                <h1 className='header-name'>Hi! I'm {name}</h1>
+                {/* <p className='headline'>{headline}</p> */}
             </header>
         </div>
     )

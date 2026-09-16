@@ -1,6 +1,6 @@
 #header{
   /* background */
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), url('images/doodles.png');
+  /* background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), url('images/doodles.png'); */
   background-size: cover;
   
   /* text alignment */
@@ -8,7 +8,7 @@
 
   /* padding & margin*/
   padding: 2.5rem 0;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   margin-top: 2rem;
 
   /* border */
@@ -17,14 +17,13 @@
   border-radius: 8px;
 
   /* transition */
-  transition: all 0.2s ease;
-  
+  transition: all 0.2s ease;  
 }
 
 #header:hover{
   border-color: darkorange;
 
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4)), url('images/doodles.png');
+  /* background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4)), url('images/doodles.png'); */
   background-size:cover;
 }
 #header h1{

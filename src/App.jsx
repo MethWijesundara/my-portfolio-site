@@ -26,6 +26,7 @@ import Projects from './components/Projects';
 import Extra from './components/Extra';
 import Footer from './components/Footer';
 import ContactLinks from './components/ContactLinks';
+import About from './components/About';
 
 // import Helmet
 import { Helmet } from 'react-helmet'
@@ -37,29 +38,27 @@ function App(){
   const name = "Your name here"
 
   return(
-    <div>
+    <div className="body">
 
       <Helmet>
         <title>✨ Portfolio • {name}</title>
-      </Helmet>
-      
-      <Navbar />
+      </Helmet>      
 
-      <NavMenu className="NavMenu" />
+      <div className="nav-flow">
+        <Navbar className = "nav" />
+        <NavMenu />
+      </div>
 
-      <Header />
 
-      <ContactLinks />
-
-      <Skills />
-
-      <Education />
-
-      <Projects /> 
-
-      <Extra />
-
-      <Footer />
+      <div className="main-flow">
+        <About />
+        <Skills />
+        <Education />
+        <Projects /> 
+        <Extra />
+        <ContactLinks />
+        <Footer />
+      </div>
 
     </div>
   )

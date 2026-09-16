@@ -9,7 +9,7 @@ function Navbar(){
         
         <nav className="floating-navbar">
 
-            <a href="#header" aria-label="Home" data-section="header">Home 🏠  </a>
+            <a href="#About" aria-label="Home" data-section="About">Home 🏠  </a>
 
             <a href="#skills" aria-label="Skills" data-section="skills">Skills 🖥️</a>
 

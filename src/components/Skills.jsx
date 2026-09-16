@@ -17,11 +17,11 @@ const Skills = () =>{
 
     return (
         <section id='skills'>
-            <h2 className='heading'><i className="fas fa-code"></i> skills</h2>
+            <h2 className='heading'><i className="fas fa-code"></i> SKILLS</h2>
 
             <div className='skill-main-container'>
                 <div className='skills-container'>
-                    <h3>Programming Languages :</h3>
+                    <h3>Programming Languages</h3>
                     <div className='skills-grid'>
                         {ProgrammingLangs.map((skill,index)=>(
                             <span key={index} className='skill-tag'>{skill}</span>
@@ -30,7 +30,7 @@ const Skills = () =>{
                 </div>
 
                 <div className='skills-container'>
-                    <h3>Frontend Web Development :</h3>
+                    <h3>Frontend Web Development</h3>
                     <div className='skills-grid'>
                         {FrontEndDev.map((skill,index)=>(
                             <span key={index} className='skill-tag'>{skill}</span>
@@ -51,15 +51,6 @@ const Skills = () =>{
                     <h3>Databases</h3>
                     <div className='skills-grid'>
                         {Databases.map((skill,index)=>(
-                            <span key={index} className='skill-tag'>{skill}</span>
-                        ))}
-                    </div>
-                </div>
-
-                <div className='skills-container'>
-                    <h3>Producitivity</h3>
-                    <div className='skills-grid'>
-                        {ProductivitySoftware.map((skill,index)=>(
                             <span key={index} className='skill-tag'>{skill}</span>
                         ))}
                     </div>

@@ -1,0 +1,33 @@
+.about-container{
+    /* border: 2px dashed blue; */
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.name{
+    /* border: 2px dashed gray; */
+    font-size: 2rem;
+}
+.description-container{
+
+    /* border: 2px dashed black; */
+
+    /* using flexbox to center the text.  */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    margin: 0.2rem 0.4rem;
+}
+.image-container{
+    /* border: 2px dashed red; */
+    height: 14rem;
+    margin: 0.2rem 0.4rem;
+    background: url('/public/images/picture.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+}
