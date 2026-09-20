@@ -36,30 +36,39 @@ const Projects = () => {
     return (
         <section id="projects">
 
-            <h2><i className='fas fa-folder-open'></i> PROJECTS</h2>
+            <h2>PROJECTS/WORK <i className='fas fa-folder-open'></i></h2>
 
-            {projects.map((project)=>(
-                
-                <div key={project.id} className='project-card'>
+            {projects.map((project, index)=>(
+                <div key={project.id} className='project-container'>
 
-                    <h3 className="project-title">{project.title}</h3>
+                    <div className='project-card'>
+                        <div className="project-top">
+                            <div className='project-title-date'>
+                                <h3 className="project-title">{project.title}</h3>
+                                <p className='date'>{project.date}</p>
+                            </div>
 
-                    <div className='project-meta'>
-                        <span className="tech">{project.tech}</span>
-                        <span className="theme">{project.theme}</span>
+                            <div className='project-meta'>
+                                <span className="tech">{project.tech}</span>
+                                <span className="theme">{project.theme}</span>
+                            </div>
+                        </div>
+
+                        <div className='project-bottom'>
+                            <p className='description'>{project.description}</p>
+
+                            <a href={project.github} className='project-btn' target="_blank" rel='noopener noreferrer'>
+                                View Project » <i className='fab fa-github'></i>
+                            </a>
+
+                        </div>
+
                     </div>
 
-                    <p className='date'>{project.date}</p>
-
-                    <p className='description'>{project.description}</p>
-
-                    <a href={project.github} className='project-btn' target="_blank" rel='noopener noreferrer'>
-                        View Project » <i className='fab fa-github'></i>
-                    </a>
-                    
+                     {index < projects.length - 1 && <hr className='hr' />}
                 </div>
-            ))}
 
+            ))}
         </section>
     );
 };

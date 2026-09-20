@@ -12,12 +12,12 @@ const Skills = () =>{
     const ProgrammingLangs = ['Python', 'C', 'C#'];
     const FrontEndDev = ['HTML', 'CSS', 'JavaScript', 'React.js'];
     const BackEndDev = ['Express.js', 'Node.js'];
-    const Databases = ['MySQL'];
+    const Databases_Tools = ['MySQL', 'Git'];
     const ProductivitySoftware = ['Notion'];
 
     return (
         <section id='skills'>
-            <h2 className='heading'><i className="fas fa-code"></i> SKILLS</h2>
+            <h2 className='heading'>SKILLS & OTHER TOOLS <i className="fas fa-code"></i></h2>
 
             <div className='skill-main-container'>
                 <div className='skills-container'>
@@ -48,9 +48,9 @@ const Skills = () =>{
                 </div>
 
                 <div className='skills-container'>
-                    <h3>Databases</h3>
+                    <h3>Databases & Tools</h3>
                     <div className='skills-grid'>
-                        {Databases.map((skill,index)=>(
+                        {Databases_Tools.map((skill,index)=>(
                             <span key={index} className='skill-tag'>{skill}</span>
                         ))}
                     </div>

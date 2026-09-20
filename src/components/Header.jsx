@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <header id='header'>
-                <h1 className='header-name'>Hi! I'm {name}</h1>
+                <h1 className='header-name'>Hi! I'm <span className="header-name">{name}</span></h1>
                 {/* <p className='headline'>{headline}</p> */}
             </header>
         </div>

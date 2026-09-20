@@ -34,6 +34,10 @@
   /* text-shadow: 0 4px 6px rgba(0,0,0,0.15); */
 }
 
+.header-name{
+  color: darkorange;
+}
+
 .headline {
   font-size: 1.2rem;
   color: #6c757d;

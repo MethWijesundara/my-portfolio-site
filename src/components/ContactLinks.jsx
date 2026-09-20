@@ -10,22 +10,37 @@ function ContactLinks() {
 
     return(
         <section id='contact-links'>
-            <h2><i class="fa-solid fa-link"></i> CONTACT ME</h2>
-            <p>Get in touch with me through Email, view my projects on GitHub, or connect with me on LinkedIn :).</p>
-        <div className='contact-links-container'>
-            <a href={`mailto:${Email}`} target="_blank" rel='noopener noreferrer'>
-                <FontAwesomeIcon icon={faEnvelopeOpen} /> Email 
-            </a>
+            <h2>CONTACT ME <i class="fa-solid fa-link"></i></h2>
+
+            <div className="contact-main">
+
+                <div className="contact-left">
+
+                    <h1 className='contact-greeting'>See you again!  <i class="fa-regular fa-hand fa-float"></i></h1>
+
+                    <p className='contact-text'>I'm still on my way to 1st year of Software Engineering, and I'm very keen on making a website for your business. <p>
+                    <br />
+                    </p>Send an <span className="highlighted-text">Email</span>, View my <span className="highlighted-text">GitHub</span> for more work I've done, or check out my <span className="highlighted-text">LinkedIn</span> profile :).</p>
+                        <div className='contact-links-container'>
+                            <a href={`mailto:${Email}`} target="_blank" rel='noopener noreferrer' className="email-button">
+                                <FontAwesomeIcon icon={faEnvelopeOpen} /> Email 
+                            </a>
 
 
-            <a href='https://github.com/MethWijesundara' target="_blank" rel='noopener noreferrer'>
-                <FontAwesomeIcon icon={faGithub} /> GitHub
-            </a>
+                            <a href='https://github.com/MethWijesundara' target="_blank" rel='noopener noreferrer'>
+                                <FontAwesomeIcon icon={faGithub} /> GitHub
+                            </a>
 
-            <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>
-                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-            </a>
-        </div>
+                            <a href='https://www.linkedin.com/in/meth-wijesundara' target='_blank' rel='noopener noreferer'>
+                                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+                            </a>
+                        </div>
+                </div>
+
+                
+                <div className="contact-right"></div>
+                
+            </div>
         </section>
     );
 }

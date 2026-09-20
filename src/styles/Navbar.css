@@ -2,12 +2,14 @@ html{
   scroll-behavior: smooth;
 
 }
+
 .floating-navbar{
-    
+
+    /* width: 90%; */
     /* flex-box*/
     display: flex;
     gap: 0.2rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
     /* background & border */
     background: white;
@@ -19,15 +21,25 @@ html{
     
     /* transition */
     transition: all 0.2s ease-in-out;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 
     /* position */
     position: sticky;
-    margin: 2rem;
+    /* margin: 0 auto; */
+    top: 0.1rem;
+    width: 80%;
+    /* max-width: 1000px; */
+    margin-inline: auto;
 
     /* padding */
     padding: 0.5rem;
 
+}
+
+.nav-left{
+  /* border: 2px dashed red; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .floating-navbar a{
@@ -114,6 +126,15 @@ html{
 .NavMenu-button:active{
   transform:scale(0.97);
   border: 1px solid darkorange;
+}
+
+.mode-toggle{
+  background: white;
+  border: none;
+  color: gray;
+  /* border: 1px solid gray; */
+  /* border-radius: 8px; */
+  padding: 0.4rem 0.6rem;
 }
 
 

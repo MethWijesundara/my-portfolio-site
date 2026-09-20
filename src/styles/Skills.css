@@ -33,12 +33,12 @@
 .skill-tag {
   padding: 0;
 
-  background: #f8f9fa;
+  background: white;
   border: none;
   border-radius: 0;
   box-shadow: none;
 
-  color: black;
+  color: gray;
   font-size: 0.9rem;
   font-weight: 500;
 
@@ -46,17 +46,25 @@
 
   transition: all 0.2s ease;
 
+  background: #f8f9fa;
   border: 1px solid gray;
   border-radius: 12px;
   padding: 0.2rem 0.6rem;
-
+  
 }
 
 .skill-tag:hover {
   color: darkorange;
   transform: none;
   border: none;
+  background:white;
   box-shadow: none;
   border: 1px dashed black;
-  background: white;
+}
+
+@media (max-width: 600px){
+  .skill-main-container{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
 }

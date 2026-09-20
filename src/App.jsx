@@ -44,9 +44,9 @@ function App(){
         <title>✨ Portfolio • {name}</title>
       </Helmet>      
 
-      <div className="nav-flow">
-        <Navbar className = "nav" />
+        <Navbar />
         <NavMenu />
+      <div className="nav-flow">
       </div>
 
 

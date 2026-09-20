@@ -18,50 +18,32 @@ const Education = () => {
     const description_1 = "Completed two years of Computer Science coursework which included Data Structures & Algorithms, OOP with C#, Database Management Systems, Web Development and System Analysis."
 
     return(
-        // <section id='education'>
-        //     <h2 className='education-heading'><i className='fas fa-graduation-cap'></i> EDUCATION</h2>
-
-        //     <div className='edu-item'>
-        //         <h3 className='uni-name'>BSc (Hons) Computer Science</h3>
-        //         <p>National School of Business Management (NSBM)</p>
-        //         <p className='date'>March 2023 - May 2025</p>
-        //         <br />
-        //         <p>Relevant Coursework :</p>
-        //         <ul className='unordered-list'>
-        //             {courses.map((course, index)=>(
-        //                 <li key={index}>{course}</li>
-        //             ))}
-        //         </ul>
-        //     </div>
-            
-        // </section>
-
+        
         <section id='education'>
-            <h2>EDUCATION <i class="fa-solid fa-user-graduate"></i></h2>
+            <h2>TIMELINE <i className="fa-solid fa-user-graduate"></i></h2>
 
             <div className="edu-main-container">
                 <div className="edu-item">
-                    <h3>University of Plymouth (NSBM affiliation)</h3>
-                    <h4>BSc (Hons) Computer Science -  Year 2</h4>
-                    <i>2024- 2025 May</i>
+                    <h3>BSc (Hons) Computer Science | 2023 - 2025</h3>
+                    <h3 className = "uni">University of Plymouth</h3>
+                    <h4 className="uni-description"><i>*National School of Business Management (NSBM) affiliation.</i></h4>
+                    <br />
+                    <p>I completed 2 years of CS coursework before dropping out. What I learned includes: </p>
+                    <ul className="courses">
+                        <li>Introduction to Programming with C</li>
+                        <li>Object Oriented Programming with C#</li>
+                        <li>Web Development</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Database Management</li>
+                    </ul>
+                    
                 </div>
 
                 <div className="edu-logo-container">
-                    <div className='edu-1'></div>
                 </div>
             </div>
 
-            <div className="edu-main-container">
-                <div className="edu-item">
-                    <h3>National School of Business Management (NSBM)</h3>
-                    <h4>BSc (Hons) Computer Science -  Year 1</h4>
-                    <i>2023 March - 2024</i>
-                </div>
-
-                <div className="edu-logo-container">
-                    <div className='edu-2'></div>
-                </div>
-            </div>
+            {/* <hr /> */}
 
         </section>
     );

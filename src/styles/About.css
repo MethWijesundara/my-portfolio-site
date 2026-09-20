@@ -1,3 +1,8 @@
+#About{
+    scroll-margin-top: 6rem;
+
+}
+
 .about-container{
     /* border: 2px dashed blue; */
     display:grid;
@@ -7,6 +12,10 @@
 .name{
     /* border: 2px dashed gray; */
     font-size: 2rem;
+}
+
+.about-name{
+    color: darkorange;
 }
 .description-container{
 
@@ -20,6 +29,7 @@
     text-align:center;
     margin: 0.2rem 0.4rem;
 }
+
 .image-container{
     /* border: 2px dashed red; */
     height: 14rem;
@@ -30,4 +40,18 @@
     background-repeat: no-repeat;
 
     border-radius: 8px;
+}
+
+@media (max-width: 600px){
+  .about-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .image-container{
+    width: 14rem;
+    margin: 1rem 0;
+  }
 }

@@ -30,12 +30,69 @@
 }
 
 .contact-links-container a:hover{
-  color: black;
-  border: 1px dashed darkorange;
+  color: darkorange;
+  border: 1px dashed black;
   transform: translateY(-2px);
-  box-shadow: 2px 2px 0px darkorange;
+  box-shadow: 2px 2px 0px black;
 }
 
 .contact-links-container a:active{
   transform: scale(0.97); 
+}
+
+/* 17/Sep */
+.contact-main{
+  /* border: 1px dashed blue; */
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.contact-left{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-right{
+  height: 14rem;
+  margin: 0.2rem 0.4rem;
+  background: url('/public/images/image(1).jpg');
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  padding: 1rem;
+  
+  border: 2px solid rgb(247, 145, 247);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.contact-greeting{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.contact-text{
+  text-align: center;
+  margin: 1rem;
+  padding: 0.8rem;
+}
+
+.highlighted-text{
+  color: gray;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.highlighted-text:hover .email-button{
+  color:darkorange;
+}
+
+@media (max-width: 600px){
+  .contact-main{
+    display:flex;
+    flex-direction: column-reverse;
+  }
 }
