@@ -45,6 +45,7 @@
   /* border: 1px dashed blue; */
   display: grid;
   grid-template-columns: 3fr 2fr;
+  align-items: center;
 }
 
 .contact-left{
