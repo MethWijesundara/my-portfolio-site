@@ -24,6 +24,8 @@ function Navbar(){
                 <a href="#projects" aria-label="Projects">Work 📂</a>
 
                 <a href="#extra">Extras 🌟</a>
+
+                <a href='#contact-links'>Contact Me 📲</a>
             </div>
 
             <div className="nav-right">

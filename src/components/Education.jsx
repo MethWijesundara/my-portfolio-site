@@ -20,13 +20,18 @@ const Education = () => {
     return(
         
         <section id='education'>
-            <h2>TIMELINE <i className="fa-solid fa-user-graduate"></i></h2>
+            <h2>
+                {/* <i className="fa-solid fa-user-graduate"></i> */}
+                timeline 
+            </h2>
 
             <div className="edu-main-container">
                 <div className="edu-item">
-                    <h3>BSc (Hons) Computer Science | 2023 - 2025</h3>
-                    <h3 className = "uni">University of Plymouth</h3>
-                    <h4 className="uni-description"><i>*National School of Business Management (NSBM) affiliation.</i></h4>
+                    <div className='uni-details'>
+                        <h3>BSc (Hons) Computer Science</h3>
+                        <h3 className='edu-item-duration'>2023 - 2025</h3>
+                    </div>
+                    <h3 className = "uni">National School of Business Management (NSBM)</h3>
                     <br />
                     <p>I completed 2 years of CS coursework before dropping out. What I learned includes: </p>
                     <ul className="courses">
@@ -39,8 +44,8 @@ const Education = () => {
                     
                 </div>
 
-                <div className="edu-logo-container">
-                </div>
+                {/* <div className="edu-logo-container">
+                </div> */}
             </div>
 
             {/* <hr /> */}

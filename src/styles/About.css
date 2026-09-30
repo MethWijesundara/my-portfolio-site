@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 #About{
     scroll-margin-top: 6rem;
 
@@ -16,6 +18,9 @@
 
 .about-name{
     color: darkorange;
+    font-family: "Handlee", cursive;
+  font-weight: 600;
+  font-style: normal;
 }
 .description-container{
 

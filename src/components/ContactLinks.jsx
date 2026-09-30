@@ -10,13 +10,17 @@ function ContactLinks() {
 
     return(
         <section id='contact-links'>
-            <h2>CONTACT ME <i class="fa-solid fa-link"></i></h2>
+            <h2>want to get in touch with me?
+                {/* <i class="fa-solid fa-link"></i> */}
+                </h2>
 
             <div className="contact-main">
 
                 <div className="contact-left">
 
-                    <h1 className='contact-greeting'>See you again!  <i class="fa-regular fa-hand fa-float"></i></h1>
+                    <h1 className='contact-greeting'>See you again!  
+                        <i class="fa-regular fa-hand fa-float"></i>
+                        </h1>
 
                     <p className='contact-text'>I'm still on my way to 1st year of Software Engineering, and I'm very keen on making a website for your business. <p>
                     <br />

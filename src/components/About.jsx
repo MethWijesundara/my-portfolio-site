@@ -6,7 +6,7 @@ function About(){
     const description = "I'm a software developer who likes making web applications with React. I also love studying science on the side :)."
     return(
         <section id="About">
-            <h2>ABOUT <i class="fa-solid fa-circle-info"></i></h2>
+            <h2>welcome to my portfolio!</h2>
             <div className = "about-container">
                 <div className = "description-container">
                     {/* <p className = "name">Hi, I'm {name}!</p> */}

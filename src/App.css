@@ -1,5 +1,11 @@
 /* using vanilla CSS to style */
 
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -7,13 +13,11 @@
 }
 
 body {
-  font-family: -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  Helvetica,
-  Arial,
-  sans-serif;
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"GRAD" 0;
 
   background:white;
   color:#1a1a2e;

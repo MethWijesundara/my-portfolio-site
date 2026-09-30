@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap');
+
 #header{
   /* background */
   /* background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255,255,255,0.75)), url('images/doodles.png'); */
@@ -22,8 +25,6 @@
 
 #header:hover{
   border-color: darkorange;
-
-  /* background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4)), url('images/doodles.png'); */
   background-size:cover;
 }
 #header h1{
@@ -31,11 +32,13 @@
   font-weight: 700;
   letter-spacing: 0.2px;
   color: black;
-  /* text-shadow: 0 4px 6px rgba(0,0,0,0.15); */
 }
 
 .header-name{
   color: darkorange;
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .headline {

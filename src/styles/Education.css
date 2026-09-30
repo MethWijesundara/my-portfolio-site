@@ -15,10 +15,10 @@
 .edu-logo-container{
   margin: 0 auto;
 
-  background: url('/images/u_plymouth.png');
+  /* background: url('/images/u_plymouth.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 
   width: 100px;
   height: 100px;
@@ -34,12 +34,21 @@
 }
 
 .uni{
-  font-weight: 500;
-  color:#333;
+  font-weight: 400;
+  color:gray;
 }
 
 .uni-description{
   color: #666;
+}
+
+.uni-details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.edu-item-duration{
+  font-style: italic;
 }
 
 .courses{

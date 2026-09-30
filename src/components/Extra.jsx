@@ -4,7 +4,10 @@ const Extra = () => {
 
     return(
         <section id='extra'>
-            <h2><i class="fa-solid fa-circle-info"></i> EXTRAS</h2>
+            <h2>
+                {/* <i class="fa-solid fa-circle-info"></i>  */}
+                extras
+            </h2>
 
             <div className='extra-container'>
 

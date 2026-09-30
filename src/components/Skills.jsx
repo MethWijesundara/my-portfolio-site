@@ -17,7 +17,7 @@ const Skills = () =>{
 
     return (
         <section id='skills'>
-            <h2 className='heading'>SKILLS & OTHER TOOLS <i className="fas fa-code"></i></h2>
+            <h2 className='heading'>skills & tools</h2>
 
             <div className='skill-main-container'>
                 <div className='skills-container'>

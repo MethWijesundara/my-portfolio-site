@@ -5,34 +5,40 @@ html{
 
 .floating-navbar{
 
-    /* width: 90%; */
     /* flex-box*/
     display: flex;
     gap: 0.2rem;
     justify-content: space-between;
     
-    /* background & border */
-    background: white;
+    /* background*/
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* border */
     border: 2px solid rgba(128, 128, 128, 0.353);
-    border-radius: 8px;
+
+    border-radius: 14px;
     
     /* z-index */
     z-index: 100;
     
     /* transition */
     transition: all 0.2s ease-in-out;
-    /* transform: translateY(-50%); */
 
     /* position */
     position: sticky;
-    /* margin: 0 auto; */
-    top: 0.1rem;
+
+    top: 0;
     width: 80%;
-    /* max-width: 1000px; */
+
     margin-inline: auto;
 
     /* padding */
     padding: 0.5rem;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+
 
 }
 
@@ -40,6 +46,12 @@ html{
   /* border: 2px dashed red; */
   display: flex;
   justify-content: space-between;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .floating-navbar a{

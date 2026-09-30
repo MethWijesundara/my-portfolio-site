@@ -36,7 +36,9 @@ const Projects = () => {
     return (
         <section id="projects">
 
-            <h2>PROJECTS/WORK <i className='fas fa-folder-open'></i></h2>
+            <h2>work
+                 {/* <i className='fas fa-folder-open'></i> */}
+                 </h2>
 
             {projects.map((project, index)=>(
                 <div key={project.id} className='project-container'>
