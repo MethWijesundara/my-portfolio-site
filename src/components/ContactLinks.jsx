@@ -10,9 +10,7 @@ function ContactLinks() {
 
     return(
         <section id='contact-links'>
-            <h2>want to get in touch with me?
-                {/* <i class="fa-solid fa-link"></i> */}
-                </h2>
+            <h2>contact me</h2>
 
             <div className="contact-main">
 
@@ -42,7 +40,9 @@ function ContactLinks() {
                 </div>
 
                 
-                <div className="contact-right"></div>
+                <div className="contact-right">
+                    <div className='contact-right-image'></div>
+                </div>
                 
             </div>
         </section>

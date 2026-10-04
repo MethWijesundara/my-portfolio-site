@@ -3,33 +3,33 @@ import React from 'react';
 const Projects = () => {
     const projects = [
         {
-            id: 'dayli',
-            title: 'DAYLI',
-            tech: 'Python, MySQL',
+            id: 1,
+            title: 'Cozy Notebook',
+            tech: 'Flask, JSON',
             theme: 'Productivity',
-            date: 'July 15 - Present',
-            description: 'CLI journal app with persistent MySQL storage, tag-based search, and mood tracking.',
-            github: 'https://github.com/MethWijesundara/DAYLI'
+            date: 'September 2026',
+            description: 'A simple note-taking web application built with Flask and JSON for data storage.',
+            github: 'https://github.com/MethWijesundara/cozy-notebook'
         },
 
         {
-            id: 'movieflix',
-            title: 'MovieFlix',
-            tech: 'HTML, CSS',
-            theme: 'Entertainment',
-            date: 'May 2026',
-            description: 'A UI design for a movie/tv-show streaming website',
-            github: 'https://github.com/MethWijesundara/MovieFlix'
-        },
-
-        {
-            id: 'expense-tracker',
-            title: 'Expense Tracker',
-            tech: 'React.js, JSX',
-            theme: 'Data Analysis',
+            id: 2,
+            title: 'Energy and Momentum Calculator',
+            tech: 'Python',
+            theme: 'Physics',
             date: 'March 2026',
-            description: 'An expense tracker built with React.js that shows expenses, earnings and the total amount remaining.',
-            github: 'https://github.com/MethWijesundara/expense-tracker-react-app'
+            description: 'A simple calculator that calculates the energy and momentum of an object based on its mass, height and velocity.',
+            github: 'https://github.com/MethWijesundara/energy-and-momentum-calculator'
+        },
+
+        {
+            id: 3,
+            title: 'DNA to RNA transcription',
+            tech: 'Python',
+            theme: 'Biology',
+            date: 'August 2026',
+            description: 'A simple tool for converting DNA sequences to RNA sequences.',
+            github: 'https://github.com/MethWijesundara/DNA-to-RNA-transcription'
         }
     ];
 
@@ -45,6 +45,7 @@ const Projects = () => {
 
                     <div className='project-card'>
                         <div className="project-top">
+
                             <div className='project-title-date'>
                                 <h3 className="project-title">{project.title}</h3>
                                 <p className='date'>{project.date}</p>
@@ -60,7 +61,7 @@ const Projects = () => {
                             <p className='description'>{project.description}</p>
 
                             <a href={project.github} className='project-btn' target="_blank" rel='noopener noreferrer'>
-                                View Project » <i className='fab fa-github'></i>
+                                View Project <i className='fab fa-github'></i>
                             </a>
 
                         </div>

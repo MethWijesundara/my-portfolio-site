@@ -22,7 +22,7 @@ const Education = () => {
         <section id='education'>
             <h2>
                 {/* <i className="fa-solid fa-user-graduate"></i> */}
-                timeline 
+                education 
             </h2>
 
             <div className="edu-main-container">
@@ -33,7 +33,7 @@ const Education = () => {
                     </div>
                     <h3 className = "uni">National School of Business Management (NSBM)</h3>
                     <br />
-                    <p>I completed 2 years of CS coursework before dropping out. What I learned includes: </p>
+                    <p>Completed two years of Computer Science coursework.</p>
                     <ul className="courses">
                         <li>Introduction to Programming with C</li>
                         <li>Object Oriented Programming with C#</li>

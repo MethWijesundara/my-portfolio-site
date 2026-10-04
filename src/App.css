@@ -32,13 +32,6 @@ body {
 
 }
 
-.nav-flow{
-  max-width: 1024px;
-  width:100%;
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-
 section {
   margin: 2.5rem 0;
   border: 2px solid rgba(128, 128, 128, 0.299);
@@ -82,6 +75,7 @@ h3{
   }
 
   h2{
+    font-size: 1rem;
     text-align: center;
   }
 }

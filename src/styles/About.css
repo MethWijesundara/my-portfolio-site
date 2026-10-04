@@ -1,33 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 #About{
     scroll-margin-top: 6rem;
-
 }
 
 .about-container{
-    /* border: 2px dashed blue; */
     display:grid;
     grid-template-columns: 3fr 1fr;
 }
 
 .name{
-    /* border: 2px dashed gray; */
     font-size: 2rem;
 }
 
 .about-name{
     color: darkorange;
     font-family: "Handlee", cursive;
-  font-weight: 600;
-  font-style: normal;
+    font-weight: 600;
+    font-style: normal;
 }
+
+.about-emoji{
+    font-family: "Handlee", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
 .description-container{
-
-    /* border: 2px dashed black; */
-
-    /* using flexbox to center the text.  */
     display:flex;
+    flex-direction: column;
     align-items:center;
     justify-content:center;
 
@@ -35,10 +38,75 @@
     margin: 0.2rem 0.4rem;
 }
 
+
+.description{
+    animation: fadeIn 0.5s ease-in-out;
+}
+.about-button-container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+}
+
+
+
+/* Contact button */
+.about-contact-button{
+  text-decoration: none;
+  color: #2373b9;
+  background: rgba(132, 187, 238, 0.15);
+  padding: 0.45rem 1.1rem;
+  border-radius: 14px;
+  border: 2px solid #a2bad2;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.about-contact-button:hover {
+    background: rgba(132, 187, 238, 0.3);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.about-contact-button:active {
+    transform: scale(0.95);
+}   
+
+
+/* Easter-egg button */
+
+.about-easter-egg{
+    font-size: 1rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: 14px;
+    border: 2px solid #f0d98c;
+    background: white;
+    color:#2b2b2b;
+
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"GRAD" 0;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.about-easter-egg:hover{
+    transform: scale(1.05);
+    cursor: pointer; 
+}
+
+.about-easter-egg:active{
+    transform: scale(0.95);
+}
+
+/* image */
 .image-container{
-    /* border: 2px dashed red; */
     height: 14rem;
-    margin: 0.2rem 0.4rem;
     background: url('/public/images/picture.png');
     background-position: center;
     background-size: cover;
@@ -47,6 +115,19 @@
     border-radius: 8px;
 }
 
+/* animations */
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+/* responsive design */
 @media (max-width: 600px){
   .about-container{
     display:flex;

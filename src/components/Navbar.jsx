@@ -11,21 +11,21 @@ function Navbar(){
 
             <div className="nav-left">
 
-                <a href="#About" aria-label="About" data-section="About">Home 🏠
+                <a href="#About" aria-label="About" data-section="About">home 🏠
                 </a>
 
                 <div className="nav-logo">
                 </div>    
 
-                <a href="#skills" aria-label="Skills" data-section="skills">Skills 🖥️</a>
+                <a href="#skills" aria-label="Skills" data-section="skills">skills 🖥️</a>
 
-                <a href="#education" aria-label="Education">Timeline 🎓</a>
+                <a href="#education" aria-label="Education">education 🎓</a>
 
-                <a href="#projects" aria-label="Projects">Work 📂</a>
+                <a href="#projects" aria-label="Projects">work 📂</a>
 
-                <a href="#extra">Extras 🌟</a>
+                <a href="#extra">extras 🌟</a>
 
-                <a href='#contact-links'>Contact Me 📲</a>
+                <a href='#contact-links'>contact me 📲</a>
             </div>
 
             <div className="nav-right">

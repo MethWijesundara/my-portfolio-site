@@ -1,7 +1,7 @@
 .edu-main-container{
   display:flex;
   align-items: center;
-  margin:1rem;
+  margin:0.2rem;
 }
 .edu-item{
   flex: 1;
@@ -15,11 +15,6 @@
 .edu-logo-container{
   margin: 0 auto;
 
-  /* background: url('/images/u_plymouth.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-
   width: 100px;
   height: 100px;
 
@@ -27,15 +22,13 @@
   justify-content: center;
   align-items: flex-start;
 
-  position: relative;
-
-  /* Do not touch */
-  top:-84px;
+  position: relative;/
 }
 
 .uni{
   font-weight: 400;
   color:gray;
+  font-size: 0.95rem;
 }
 
 .uni-description{
@@ -44,11 +37,14 @@
 
 .uni-details{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .edu-item-duration{
   font-style: italic;
+  font-size: 0.95rem;
 }
 
 .courses{
@@ -65,5 +61,12 @@
 
   .edu-logo-container{
     display:none;
+  }
+
+  .uni-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 }

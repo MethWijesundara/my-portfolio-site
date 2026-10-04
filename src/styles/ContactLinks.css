@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   gap:1.2rem;
-  margin-top: 1rem;
+  margin: 1rem;
   font-size: 0.95rem;
   transition: font-weight 0.2 ease, color 0.2s ease;
 }
@@ -43,31 +43,38 @@
 /* 17/Sep */
 .contact-main{
   /* border: 1px dashed blue; */
-  display: grid;
-  grid-template-columns: 3fr 2fr;
+  display: flex;
+  /* grid-template-columns: 3fr 2fr; */
   align-items: center;
 }
 
 .contact-left{
-  margin: 1rem;
+  margin: 0.2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .contact-right{
-  height: 14rem;
+  
   margin: 0.2rem 0.4rem;
+  padding: 0.2rem 0.4rem;
+  
+  border: 2px dashed gray;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.contact-right-image{
+
+  height: 14rem;
+  width: 14rem;
   background: url('/public/images/image(1).jpg');
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
-  margin: 1rem;
-  padding: 1rem;
-  
-  border: 2px solid rgb(247, 145, 247);
   border-radius: 8px;
-  padding: 1rem;
+
 }
 
 .contact-greeting{
