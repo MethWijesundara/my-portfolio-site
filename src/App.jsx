@@ -31,12 +31,12 @@ import ContactLinks from './components/ContactLinks';
 function App(){
 
   // ENTER YOUR NAME HERE (FOR THE TITLE)
-  const name = "Your name here"
+  const name = "Meth"
 
   return(
     <div className="body">
 
-        <title>✨ Portfolio • {name}</title>      
+      <title>✨ Portfolio • {name}</title>      
 
       <Navbar />
       <NavMenu />
