@@ -27,9 +27,6 @@ import Extra from './components/Extra';
 import Footer from './components/Footer';
 import ContactLinks from './components/ContactLinks';
 
-// import Helmet
-import { Helmet } from 'react-helmet'
-
 // main function 
 function App(){
 
@@ -39,9 +36,7 @@ function App(){
   return(
     <div className="body">
 
-      <Helmet>
-        <title>✨ Portfolio • {name}</title>
-      </Helmet>      
+        <title>✨ Portfolio • {name}</title>      
 
       <Navbar />
       <NavMenu />
