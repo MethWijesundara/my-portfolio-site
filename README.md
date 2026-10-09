@@ -1,4 +1,4 @@
-# 📃 my porfolio - v1  (resume-style) 
+# 📃 My Portfolio Website - V1
 
 ## Preview
 <img width="1897" height="1079" alt="image" src="https://github.com/user-attachments/assets/38d917cf-9a61-4d92-94c2-43b2dc5b468c" />
